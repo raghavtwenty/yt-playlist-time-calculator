@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	<h2> Calculated Time </h2>
+	<p> Normal Playtime (1x) ----- {{ NC_PL }} </p>
+	<p> 1.25x Playtime ----- {{ x125_PL }} </p>
+	<p> 1.5x Playtime ----- {{ x15_PL }} </p>
+	<p> 1.75x Playtime ----- {{ x175_PL }} </p>
+	<p> 2x Playtime ----- {{ x2_PL}} </p>
+
+	<form action='/' method = 'get'>
+        <input type="submit", name="submit", placeholder="Submit"
+        value="Back Home", id="Submit">
+    </form>
+	<br>
+	<p> **advertisement timings not included </p>
+	<br>
+{% endblock %}
+
+
+

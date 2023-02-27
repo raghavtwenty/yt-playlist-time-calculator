@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	background-color: black;
+	color: white;
+	display: grid;
+	font-family: 'Arial';
+}
+
+#ytpl_link {
+	align-content: center;
+	background-color: white;
+	color: black;
+}
+
+#Submit {
+	font-style: italic;
+}
+
+::placeholder {   
+	color: black;
+}
+
+footer {
+	bottom : 0;
+	position:absolute;
+	color: white;
+	font-style: italic;
+	width: 100%;
+}
+
+a {
+	color: lightblue;
+}
